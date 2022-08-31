@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital clock</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <span><i class="fa-solid fa-hourglass"></i></span>
+            <h1><a href="index.html">Chronos</a></h1>
+        </div>
+        <div class="a-style">
+            <i class="fa-regular fa-clock"></i>
+            <div class="underline">
+                <a href="stopwatch.html">Stopwatch</a>
+            </div>
+        </div>
+        
+    </header>
+    <div class="main-container">
+        <h1>Digital<i class="fa-solid fa-hourglass"></i>watch</h1>
+        <main>
+            <div class="flex-container">
+                <div id="clockDisplay" class="clock" onload="showTime()"></div>
+                 <p class="session">AM</p>
+            </div>
+            <div id="dateDisplay" class="date"></div>
+            <div id="weekDayDisplay" class="dayWeek"></div>
+        </main>
+    </div>
+
+    <footer>
+        <p class="copyright">&copy; Project developed by Leonardo Barbosa</p>
+        <p>Santos - SP | 2022</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
