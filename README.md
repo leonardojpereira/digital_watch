@@ -18,6 +18,13 @@ To view this application, extract the files after downloading from github, and o
 index.html
 ```
 
+## Deploy
+
+```
+https://leonardojpereira.github.io/digital_watch/
+```
+
+
 ## 🛠️ Made with
 * [Visual Studio Code](https://code.visualstudio.com) - Coding Editor
 
